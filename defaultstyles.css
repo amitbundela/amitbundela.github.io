@@ -300,7 +300,7 @@ h1 {
 .banner-img {
     position: absolute;
     bottom: 2px;
-    right: 4px;
+    right: 0;
     height: auto;
     width: auto;
     max-width: 80px;
