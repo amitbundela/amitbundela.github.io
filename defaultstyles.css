@@ -299,8 +299,8 @@ h1 {
 
 .banner-img {
     position: absolute;
-    top: 0;
-    right: 0;
+    bottom: 4px;
+    right: 4px;
     height: auto;
     width: auto;
     max-width: 80px;
