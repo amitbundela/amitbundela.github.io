@@ -292,14 +292,39 @@ h1 {
     }
 }
 
-.banner {
+#banner {
     position: relative;
+    padding-right: 90px;
 }
 
 .banner-img {
     position: absolute;
-    top: 50px;
-    right: 5px;   /* or left: 10px */
-    width: 80px;
-    height: auto;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    max-width: 80px;
+    display: block;
+}
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+    #banner {
+        padding-right: 75px;
+    }
+
+    .banner-img {
+        max-width: 65px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    #banner {
+        padding-right: 55px;
+    }
+
+    .banner-img {
+        max-width: 50px;
+    }
 }
