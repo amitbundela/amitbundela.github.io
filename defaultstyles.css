@@ -328,3 +328,17 @@ h1 {
         max-width: 50px;
     }
 }
+
+.whatsapp-call-btn{
+    display:inline-block;
+    background:#25D366;
+    color:#fff;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.whatsapp-call-btn:hover{
+    opacity:0.9;
+}
